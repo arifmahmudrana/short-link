@@ -1,0 +1,16 @@
+.item {
+  background: $light-grey;
+  border: 1px solid $item-border;
+  border-radius: 3px;
+  padding: $space;
+  font-weight: 300;
+
+  &__noitem {
+    font-style: italic;
+    text-align: center;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $space;
+  }
+}

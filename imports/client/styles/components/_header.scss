@@ -1,0 +1,18 @@
+.header {
+  background: $header-bg;
+  color: $header-col;
+
+  &--title {
+    margin: 0;
+  }
+
+  &--container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &--link {
+    color: inherit;
+  }
+}

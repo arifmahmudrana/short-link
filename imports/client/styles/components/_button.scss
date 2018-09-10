@@ -1,0 +1,29 @@
+.button {
+  background-color: $btn-bg;
+  border: none;
+  color: $white;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: 1.2;
+  margin-bottom: $space;
+  padding: $inp-space;
+  text-transform: uppercase;
+
+  &--link {
+    display: inline-block;
+  }
+
+  &--pill {
+    background-color: transparent;
+    border: 1px solid $btn-pill-col;
+    color: $btn-pill-col;
+    margin: 0 ($space / 2) 0 0;
+    padding: .3rem .8rem;
+  }
+
+  &--secondary {
+    background-color: $btn-second-bg-col;
+    border: 1px solid $btn-second-bor-col;
+    color: $btn-second-color;
+  }
+}

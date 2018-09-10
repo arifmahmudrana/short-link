@@ -1,0 +1,39 @@
+//colors
+$primary-col: #5b4681;
+$grey: #ddd;
+$light-grey: #f9f9f9;
+$dark-grey: #777;
+$white: white;
+$black: black;
+$wrapper-width: 50rem;
+
+//spacing
+$space: 1.4rem;
+
+//base generic
+$base-font-size: $space;
+$anchor-color: $black;
+
+//form
+$input-border: $grey;
+$inp-space: 1rem;
+
+//box view
+$boxed-view-bg: $grey;
+$boxed-view-box-bg: $white;
+
+//button
+$btn-bg: $primary-col;
+$btn-color: $white;
+$btn-pill-col: $primary-col;
+$btn-second-bg-col: $light-grey;
+$btn-second-bor-col: $grey;
+$btn-second-color: $dark-grey;
+
+//header
+$header-bg: $primary-col;
+$header-col: $white;
+
+//item
+$item-bg: $light-grey;
+$item-border: darken($light-grey, 8%);

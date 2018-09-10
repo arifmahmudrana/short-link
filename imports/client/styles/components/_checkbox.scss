@@ -1,0 +1,10 @@
+.checkbox {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: $space;
+  &__box {
+    cursor: inherit;
+    margin-right: $space / 2;
+  }
+}
